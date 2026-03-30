@@ -1,12 +1,19 @@
 import './Hero.css'
 
+// Assets
+import reactLogo from '../assets/react.svg'
+
+
 function Hero() {
   return (
     <>
       <div className="section">
-        <h1 className="name">Leon Szameitat</h1>
+        <div className="introduction">
+          <img src={reactLogo} alt="React logo" className="icon" />
+          <h3 className="text">Hello I'm Leon</h3>
+        </div>
 
-        <h2 className="occupation">Software Engineer</h2>
+        <h1 className="title">Making code and pixel dance in Harmony.</h1>
       </div>
     </>
   )

@@ -1,11 +1,18 @@
-.name {
 
+/* Introduction */
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
 }
 
-.occupation {
-
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
-.working-at {
-    
+.introduction .text {
+
 }
