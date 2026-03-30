@@ -6,13 +6,21 @@
     align-items: center;
 
     gap: 1em;
+
+    font-family: var(--font-geist);
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .introduction .text {
+    color: var(--color-text-1);
+}
 
+.title {
+    margin-top: 1em;
+    color: var(--color-text-1);
+    font-size: 2em;
 }
